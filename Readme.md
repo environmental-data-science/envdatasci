@@ -1,11 +1,49 @@
 
 # Environmental Data Science
 
-[Course Information]
+
+##[Course Syllabus](resources/G136_Syllabus_Spring_2020.pdf)
 
 
-## How to use this repository.
+Course Summary
+==============
 
+This course will provide an introduction to the principles of
+environmental physics and their application to ecological sciences, with
+a focus on programming and data analysis in Python. Course activities
+will use data analysis to quantify environmental patterns and processes.
+Emphasis will be placed developing coding skills in Python and applying
+these skills to environmental and biophysical problems.
+
+Course Goals
+============
+
+1.  To develop expertise in the Python programming language and the use
+    of Python's data science stack to effectively store, manipulate, and
+    gain insight into environmental data.
+
+2.  To be able to apply this understanding to characterize data on
+    environmental patterns and processes at varying spatial and temporal
+    scales.
+
+3.  To use data to model environmental processes of energy and mass
+    transfer.
+
+Course Format
+=============
+
+Students will learn the principles of Python programming and
+environmental data science by working largely independently on weekly
+course materials conducted in Python. Readings will be assigned for both
+programming and disciplinary content related to weekly themes. At least
+once a week, we will meet as a group to introduce and discuss concepts.
+In addition, students will have the opportunity to conduct weekly
+one-on-one check-ins with the instructional team.
+
+
+
+How to use this repository.
+=============
 
 ### If you are a student in G136:
 
