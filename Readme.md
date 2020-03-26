@@ -2,7 +2,7 @@
 # Environmental Data Science
 
 
-##[Course Syllabus](resources/G136_Syllabus_Spring_2020.pdf)
+## [Course Syllabus](resources/G136_Syllabus_Spring_2020.pdf)
 
 
 Course Summary
