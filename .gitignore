@@ -1,2 +1,8 @@
 .ipynb_checkpoints/
 *.html
+assignments/
+data/
+lectures/
+resources/
+requirements.txt
+test_environment.ipynb
