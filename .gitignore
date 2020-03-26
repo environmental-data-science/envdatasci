@@ -1,2 +1,3 @@
+# Master .gitignore
 .ipynb_checkpoints/
 *.html
