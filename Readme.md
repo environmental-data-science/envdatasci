@@ -61,25 +61,46 @@
 
 		**Note:** Most of the libraries in `requirements.txt` should already be installed, in which case `pip` will report back `Requirement already satisfied` for almost every line.
 
-1. Launch the test notebook, `test_environment.ipynb`. 
-
-
-
 
 ### Local Installation (for Instructors or non-students)
 
 1. Install Conda & Git.
 
-	#TODO - Add instructions or link. Include Windows & Mac directions.
+	* Mac OS: Use [homebrew](https://medium.com/ayuth/install-anaconda-on-macos-with-homebrew-c94437d63a37)
+		
+		`$ brew install anaconda`
 
-1. Clone this repository to your local machine.
+		`$ brew install git`
 
-	* Step 1
-	* Step 2
+	* Windows: ??
 
+	* Linux: Use homebrew??
 
-1. Create a conda environment on your local computer.
+1. Create a `conda` environment.
 
-	[directions]
+	`$ conda create -n envdatasci python=3.7.3`
 
-3. 
+	**Note:** We are using python version [3.7.3](https://www.python.org/downloads/release/python-373/) in this class. That may change in the future, but for now it matches the python that LSIT is using in their docker images that they use to build JupyterHub deployments. 
+
+1. Activate the `conda` envrionment
+
+	`$ conda activate envdatasci`
+
+1. Install `pip` into the local conda environment.
+
+	`$ conda install pip`
+
+1. Clone the repository to your local machine and `cd` into the class repo directory
+
+	`$ git clone https://github.com/environmental-data-science/envdatasci`
+
+	`$ cd envdatasci`
+
+1. Add additional libaries to your conda environment using `pip`.
+
+	`$ pip install -r requirements.txt`
+
+	**Note:** We are using `pip` to manage dependencies within this conda environment. The use of `pip` and the `requirements.txt` file ensures consistency with our insallations on the JupyterHub server. This allows us to make sure that the working environment on our local machines matches *exactly* the working environment on JupyterHub. 
+
+	**Note:** If you add a package to your local environment that is used in any of the course materials, you must use `pip freeze > requirements.txt` and push the new commit to our repo. 
+
