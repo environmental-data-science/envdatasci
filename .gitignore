@@ -1,3 +1,4 @@
+# Student branch. gitignore 
 .ipynb_checkpoints/
 *.html
 assignments/
