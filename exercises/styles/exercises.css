@@ -1,0 +1,90 @@
+<style>
+    div.run { 
+        border: 0.5px solid #008C96; 
+        padding: 10px; 
+        background-color: #b2dcdf; 
+        color:#006269; 
+        margin-top: 12px; 
+        font-weight: bold
+    }
+    div.example { 
+        border: 0.5px solid #008C96; 
+        padding: 10px; 
+        background-color: #b2dcdf; 
+        color:#006269; 
+        margin-top: 12px;
+        font-weight: bold
+    }
+    div.practice { 
+        border: 0.5px solid #008C96;  
+        padding: 10px;  
+        background-color: #b2dcdf;  
+        color:#006269; 
+        margin-top: 12px;
+        font-weight: bold
+    }
+    div.python { 
+        border: 0.5px solid #408000; 
+        padding: 10px; 
+        background-color: #cddfb4; 
+        color:#2c5900; 
+        margin-top: 12px
+    }
+    div.boxhead1 { 
+        border-radius: 4px 4px 0px 0px; 
+        padding: 6px; 
+        border: 0.5px solid #008C96; 
+        background-color: #b2dcdf; 
+        color:#006269; 
+        margin-top: 12px; 
+        font-size: 115%; 
+        font-weight: bold
+    }
+    div.boxtext1 { 
+        border-radius: 0px 0px 4px 4px; 
+        border: 0.5px solid #008C96; 
+        padding: 12pt; 
+        color:#006269 
+    }
+    div.boxhead2 {
+        border-radius: 4px 4px 0px 0px; 
+        padding: 6px; border: 0.5px solid #73AD21; 
+        background-color: #c7dea6; 
+        color:#486d15; 
+        margin-top: 12px; 
+        font-size: 115%; 
+        font-weight: bold
+    }
+    div.boxtext2 { 
+        border-radius: 0px 0px 4px 4px; 
+        border: 0.5px solid #73AD21; 
+        padding: 12pt; 
+        color:#486d15
+    }
+    ol.num {
+        margin: 0pt;
+        margin-top: 12pt; 
+        margin-bottom: 2pt; 
+        margin-left: 4pt; 
+        padding-bottom: 4pt; 
+    }
+    ol.alpha {
+        list-style-type: lower-alpha;
+        margin: 0pt;
+        margin-left: 4pt;
+        margin-top: 2pt;
+        font-weight: bold
+    }
+    ul.a {
+        list-style-type: none; 
+        margin-left: -20pt;
+        font-weight: bold
+    }
+    ul.b {
+        list-style-type: square; 
+        font-weight: normal; 
+        margin-left: 20pt; 
+        margin-top: 4pt; 
+        padding-bottom: 12pt
+    }
+</style>
