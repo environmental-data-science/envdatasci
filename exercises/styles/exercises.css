@@ -30,6 +30,12 @@
         color:#2c5900; 
         margin-top: 12px
     }
+    div.codeblock { 
+        border: 0.2px solid #808080;
+        padding: 10px; 
+        background-color: #DBDBDB; 
+        margin-top: 2px
+    }   
     div.boxhead1 { 
         border-radius: 4px 4px 0px 0px; 
         padding: 6px; 
