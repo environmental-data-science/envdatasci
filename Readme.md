@@ -60,7 +60,7 @@ How to use this repository.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
-	* Type `git clone` and the the url for this repository, which is `https://github.com/environmental-data-science/envdatasci`.
+	* Type `git clone` and the the url for this repository, which is `https://github.com/environmental-data-science/envdatasci.git`.
 
 	     The entire command will look like this:
 
