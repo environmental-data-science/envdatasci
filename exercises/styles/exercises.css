@@ -84,13 +84,14 @@
     ul.a {
         list-style-type: none; 
         margin-left: -20pt;
-        font-weight: bold
+        font-weight: bold;
     }
+
     ul.b {
         list-style-type: square; 
         font-weight: normal; 
         margin-left: 20pt; 
         margin-top: 4pt; 
-        padding-bottom: 12pt
+        padding-bottom: 12pt;
     }
 </style>
