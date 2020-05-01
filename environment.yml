@@ -3,64 +3,165 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - bzip2=1.0.8=h0b31af3_2
-  - ca-certificates=2019.11.28=hecc5488_0
-  - certifi=2019.11.28=py37hc8dfbb8_1
-  - chardet=3.0.4=py37hc8dfbb8_1006
-  - conda=4.7.12=py37_1
-  - conda-package-handling=1.6.0=py37h9bfed18_2
-  - cryptography=2.8=py37he655712_2
-  - libcxx=9.0.1=1
-  - libffi=3.2.1=h4a8c4bd_1007
-  - ncurses=6.1=h0a44026_1002
-  - openssl=1.1.1e=h0b31af3_0
-  - pip=20.0.2=py_2
-  - pycosat=0.6.3=py37h9bfed18_1004
-  - pyopenssl=19.1.0=py_1
-  - pysocks=1.7.1=py37hc8dfbb8_1
-  - python=3.7.3=h5c2c468_2
-  - python_abi=3.7=1_cp37m
-  - readline=8.0=hcfe32e1_0
-  - ruamel_yaml=0.15.80=py37h9bfed18_1001
-  - setuptools=46.1.1=py37hc8dfbb8_0
-  - sqlite=3.30.1=h93121df_0
-  - tk=8.6.10=hbbe82c9_0
-  - urllib3=1.25.7=py37hc8dfbb8_1
-  - wheel=0.34.2=py_1
-  - xz=5.2.4=h0b31af3_1002
-  - yaml=0.2.2=h0b31af3_1
-  - zlib=1.2.11=h0b31af3_1006
+  - affine=2.3.0
+  - attrs=19.3.0
+  - backcall=0.1.0
+  - boost-cpp=1.72.0
+  - brotlipy=0.7.0
+  - bzip2=1.0.8
+  - ca-certificates=2020.4.5.1
+  - cairo=1.16.0
+  - cartopy=0.17.0
+  - certifi=2020.4.5.1
+  - cfitsio=3.470
+  - chardet=3.0.4
+  - click-plugins=1.1.1
+  - cligj=0.5.0
+  - conda=4.7.12
+  - conda-package-handling=1.6.0
+  - cryptography=2.8
+  - curl=7.69.1
+  - cycler=0.10.0
+  - defusedxml=0.6.0
+  - entrypoints=0.3
+  - expat=2.2.9
+  - fiona=1.8.13
+  - fontconfig=2.13.1
+  - freetype=2.10.1
+  - freexl=1.0.5
+  - gdal=3.0.4
+  - geopandas=0.7.0
+  - geos=3.8.1
+  - geotiff=1.5.1
+  - gettext=0.19.8.1
+  - giflib=5.2.1
+  - glib=2.64.2
+  - hdf4=4.2.13
+  - hdf5=1.10.6
+  - hydrofunctions=0.1.7
+  - icu=64.2
+  - importlib_metadata=1.6.0
+  - ipython_genutils=0.2.0
+  - jpeg=9c
+  - json-c=0.13.1
+  - jsonschema=3.2.0
+  - jupyter_client=6.1.3
+  - jupyter_core=4.6.3
+  - kealib=1.4.13
+  - krb5=1.17.1
+  - libblas=3.8.0
+  - libcblas=3.8.0
+  - libcurl=7.69.1
+  - libcxx=9.0.1
+  - libdap4=3.20.4
+  - libedit=3.1.20170329
+  - libffi=3.2.1
+  - libgdal=3.0.4
+  - libiconv=1.15
+  - libkml=1.3.0
+  - liblapack=3.8.0
+  - libnetcdf=4.7.4
+  - libopenblas=0.3.9
+  - libpng=1.6.37
+  - libpq=12.2
+  - libsodium=1.0.17
+  - libspatialindex=1.9.3
+  - libspatialite=4.3.0a
+  - libssh2=1.8.2
+  - libtiff=4.1.0
+  - libwebp-base=1.1.0
+  - libxml2=2.9.10
+  - libxslt=1.1.33
+  - llvm-openmp=10.0.0
+  - lxml=4.5.0
+  - lz4-c=1.9.2
+  - markupsafe=1.1.1
+  - matplotlib-base=3.2.1
+  - mistune=0.8.4
+  - munch=2.5.0
+  - nbconvert=5.6.1
+  - ncurses=6.1
+  - openjpeg=2.3.1
+  - openssl=1.1.1g
+  - owslib=0.19.2
+  - pandoc=2.9.2.1
+  - pcre=8.44
+  - pickleshare=0.7.5
+  - pip=20.0.2
+  - pixman=0.38.0
+  - poppler=0.87.0
+  - poppler-data=0.4.9
+  - postgresql=12.2
+  - proj=7.0.0
+  - prometheus_client=0.7.1
+  - ptyprocess=0.6.0
+  - pycosat=0.6.3
+  - pyepsg=0.4.0
+  - pykdtree=1.3.1
+  - pyopenssl=19.1.0
+  - pyproj=2.6.0
+  - pyshp=2.1.0
+  - pysocks=1.7.1
+  - python=3.7.3
+  - python-dateutil=2.8.1
+  - python_abi=3.7
+  - pytz=2019.3
+  - rasterio=1.1.3
+  - rasterstats=0.14.0
+  - readline=8.0
+  - rise=5.6.1
+  - rtree=0.9.4
+  - ruamel_yaml=0.15.80
+  - send2trash=1.5.0
+  - setuptools=46.1.3
+  - shapely=1.7.0
+  - simplejson=3.17.0
+  - snuggs=1.4.7
+  - sqlite=3.30.1
+  - tbb=2018.0.5
+  - testpath=0.4.4
+  - tiledb=1.7.7
+  - tk=8.6.10
+  - traitlets=4.3.3
+  - tzcode=2019a
+  - urllib3=1.25.9
+  - wheel=0.34.2
+  - xarray=0.15.1
+  - xerces-c=3.2.2
+  - xlrd=1.2.0
+  - xz=5.2.5
+  - yaml=0.2.4
+  - zeromq=4.3.2
+  - zlib=1.2.11
+  - zstd=1.4.4
   - pip:
     - alembic==1.3.1
-    - appnope==0.1.0
     - async-generator==1.10
-    - attrs==19.3.0
-    - backcall==0.1.0
     - beautifulsoup4==4.8.1
     - bleach==3.1.0
     - blinker==1.4
     - blis==0.4.1
     - bokeh==1.3.4
+    - bounded-pool-executor==0.0.3
     - catalogue==1.0.0
     - certipy==0.1.3
     - cffi==1.13.2
     - click==7.0
     - cloudpickle==1.2.2
-    - cycler==0.10.0
     - cymem==2.0.3
     - cython==0.29.14
     - cytoolz==0.10.1
     - dask==2.2.0
     - decorator==4.4.1
-    - defusedxml==0.6.0
+    - descartes==1.1.0
     - dill==0.3.1.1
     - distributed==2.5.2
-    - entrypoints==0.3
     - fastcache==1.1.0
     - fsspec==0.6.1
     - gmpy2==2.1.0b1
     - h5py==2.9.0
     - heapdict==1.0.1
+    - hydrodata==0.5.0
     - idna==2.8
     - imageio==2.6.1
     - importlib-metadata==1.1.0
@@ -73,7 +174,6 @@ dependencies:
     - jinja2==2.10.3
     - joblib==0.14.0
     - json5==0.8.5
-    - jsonschema==3.2.0
     - jupyter-client==5.3.3
     - jupyter-core==4.6.1
     - jupyterhub==1.0.0
@@ -83,18 +183,15 @@ dependencies:
     - llvmlite==0.29.0
     - locket==0.2.0
     - mako==1.1.0
-    - markupsafe==1.1.1
     - matplotlib==3.1.2
-    - mistune==0.8.4
     - more-itertools==7.2.0
     - mplcursors==0.3
     - mpmath==1.1.0
     - msgpack==0.6.2
     - murmurhash==1.0.0
-    - nbconvert==5.6.1
     - nbformat==4.4.0
     - networkx==2.4
-    - nltk==3.4.4
+    - nltk==3.4.5
     - notebook==6.0.0
     - numba==0.45.1
     - numexpr==2.6.9
@@ -109,24 +206,20 @@ dependencies:
     - partd==1.0.0
     - patsy==0.5.1
     - pexpect==4.7.0
-    - pickleshare==0.7.5
     - pillow==6.2.1
     - plac==0.9.6
+    - pqdm==0.1.0
     - preshed==3.0.2
-    - prometheus-client==0.7.1
     - prompt-toolkit==3.0.2
     - protobuf==3.9.2
     - psutil==5.6.7
-    - ptyprocess==0.6.0
     - pycparser==2.19
     - pycurl==7.43.0.3
     - pygments==2.5.2
     - pyjwt==1.7.1
     - pyparsing==2.4.5
     - pyrsistent==0.15.6
-    - python-dateutil==2.8.1
     - python-editor==1.0.4
-    - pytz==2019.3
     - pywavelets==1.1.1
     - pyyaml==5.1.2
     - pyzmq==18.1.1
@@ -135,7 +228,6 @@ dependencies:
     - scikit-learn==0.21.3
     - scipy==1.3.2
     - seaborn==0.9.0
-    - send2trash==1.5.0
     - six==1.13.0
     - sortedcontainers==2.1.0
     - soupsieve==1.9.4
@@ -146,18 +238,17 @@ dependencies:
     - sympy==1.4
     - tblib==1.4.0
     - terminado==0.8.3
-    - testpath==0.4.4
     - thinc==7.3.0
     - toolz==0.10.0
     - tornado==6.0.3
     - tqdm==4.40.0
-    - traitlets==4.3.3
+    - typing-extensions==3.7.4.2
     - vincent==0.4.4
     - wasabi==0.6.0
     - wcwidth==0.1.7
     - webencodings==0.5.1
     - widgetsnbextension==3.5.1
-    - xlrd==1.2.0
     - zict==1.0.0
     - zipp==0.6.0
-    
+prefix: /Users/kellycaylor/opt/anaconda3/envs/envdatasci
+
