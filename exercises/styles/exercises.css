@@ -74,6 +74,14 @@
         padding: 12pt; 
         color:#486d15
     }
+    span.code {
+        font-family: Lucida Console, Courier, monospace;
+        font-weight: normal;
+    }
+    span.codeb {
+        font-family: Lucida Console, Courier, monospace;
+        font-weight: bold;
+    }
     ol.num {
         margin: 0pt;
         margin-top: 12pt; 
