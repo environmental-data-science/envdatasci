@@ -1,0 +1,10 @@
+,RIVER,LENGTH_km,DRAINAGE_AREA_km2,DISCHARGE_m3s,MOUTH,SOURCE,CONTINENT
+0,Amazon,6400,7050000,209000,Atlantic Ocean,Rio Mantaro,South America
+1,Congo,4371,4014500,41200,Atlantic Ocean,Lualaba River,Africa
+2,Yangtze,6418,1808500,30166,East China Sea,Jianggendiru Glacier,Asia
+3,Mississippi,3730,3202230,16792,Gulf of Mexico,Lake Itasca,North America
+4,Zambezi,2574,1331000,3400,Indian Ocean,Miombo Woodlands,Africa
+5,Mekong,4023,811000,16000,South China Sea,Lasagongma Spring,Asia
+6,Murray,2508,1061469,767,Southern Ocean,Australian Alps,Oceania
+7,Rhone,813,98000,1710,Mediterranean Sea,Rhone Glacier,Europe
+8,Cubango,1056,530000,475,Okavango Delta,Bie Plateau,Africa
