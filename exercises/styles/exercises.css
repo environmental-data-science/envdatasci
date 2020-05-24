@@ -61,7 +61,8 @@
     }
     div.boxhead2 {
         border-radius: 4px 4px 0px 0px; 
-        padding: 6px; border: 0.5px solid #73AD21; 
+        padding: 6px; 
+        border: 0.5px solid #73AD21; 
         background-color: #c7dea6; 
         color:#486d15; 
         margin-top: 12px; 
@@ -73,6 +74,22 @@
         border: 0.5px solid #73AD21; 
         padding: 12pt; 
         color:#486d15
+    }
+    div.boxhead3 {
+        border-radius: 4px 4px 0px 0px; 
+        padding: 6px; 
+        border: 0.5px solid #e66800; 
+        background-color: #f7d1b2; 
+        color:#cd5c00; 
+        margin-top: 12px; 
+        font-size: 115%; 
+        font-weight: bold
+    }
+    div.boxtext3 { 
+        border-radius: 0px 0px 4px 4px; 
+        border: 0.5px solid #e66800; 
+        padding: 12pt; 
+        color:#cd5c00
     }
     span.code {
         font-family: Lucida Console, Courier, monospace;
