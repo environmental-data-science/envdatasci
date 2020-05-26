@@ -25,7 +25,6 @@ def get_ET_wateryear(station_id, water_year, to_csv=False):
     wshed = Station(start=start, end=end, station_id=station_id, data_dir="../data/lab_1/")
     ET = hds.ssebopeta_byloc(wshed.lon, wshed.lat, start=wshed.start, end=wshed.end, verbose=True)
     ET = ET.rename(columns={'eta (mm/day)':'ET [mm/day]'})
-    ET['Dates'] = pd.to_datetime(ET['Dates'])
     if to_csv:
         ET.to_csv('../data/lab_1/SSEBop_{sid}_{year}.csv'.format(sid=station_id, year=water_year)) 
         print('ET written to ../data/lab_1/SSEBop_{sid}_{year}.csv'.format(sid=station_id, year=water_year))
