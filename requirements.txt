@@ -25,7 +25,7 @@ dask==2.2.0
 decorator==4.4.1
 defusedxml==0.6.0
 dill==0.3.1.1
-distributed==2.5.2
+distributed==2021.10.0
 # en-core-web-md==2.2.5  # https://spacy.io/models/en
 # en-core-web-sm==2.2.5  # https://spacy.io/models/en
 entrypoints==0.3
