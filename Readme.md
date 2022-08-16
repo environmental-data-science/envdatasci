@@ -2,7 +2,7 @@
 # Environmental Data Science
 
 
-## [Course Syllabus](resources/EDS217_Syllabus_2022.pdf)
+## [Course Syllabus](https://bit.ly/syllabus-eds-217)
 
 
 Course Description
