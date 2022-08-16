@@ -5,15 +5,14 @@
 ## [Course Syllabus](resources/G136_Syllabus_Spring_2020.pdf)
 
 
-Course Summary
-==============
+Course Description
+==================
 
-This course will provide an introduction to the principles of
-environmental physics and their application to ecological sciences, with
-a focus on programming and data analysis in Python. Course activities
-will use data analysis to quantify environmental patterns and processes.
-Emphasis will be placed developing coding skills in Python and applying
-these skills to environmental and biophysical problems.
+This course teaches the fundamentals of programming in Python. 
+Students will learn foundational skills and concepts including data structures, 
+programming basics, and how to clean, subset, aggregate, transform and visualize data. 
+Course materials demonstrate the application of these techniques for 
+environmental data analysis and problem solving.
 
 Course Goals
 ============
@@ -26,28 +25,21 @@ Course Goals
     environmental patterns and processes at varying spatial and temporal
     scales.
 
-3.  To use data to model environmental processes of energy and mass
-    transfer.
-
 Course Format
 =============
 
 Students will learn the principles of Python programming and
-environmental data science by working largely independently on weekly
-course materials conducted in Python. Readings will be assigned for both
-programming and disciplinary content related to weekly themes. At least
-once a week, we will meet as a group to introduce and discuss concepts.
-In addition, students will have the opportunity to conduct weekly
-one-on-one check-ins with the instructional team.
-
+environmental data science by working largely independently on daily
+course materials conducted in Python. Supplemental readings will be 
+assigned for both programming and disciplinary content related to weekly themes. 
 
 
 How to use this repository.
 =============
 
-### If you are a student in G136:
+### If you are a student in EDS 217:
 
-1. Login to the G136 JupyterHub Server.
+1. Login to the EDS 217 JupyterHub Server.
 
 	* Our server is located at [https://g136.lsit.ucsb.edu/](https://g136.lsit.ucsb.edu/)
 
@@ -79,13 +71,13 @@ How to use this repository.
 		> Unpacking objects: 100% (10/10), done.
 		```
 
-	     You will now have a new local directory in your instance called `envdatasci/`, which contains all of the course materials. Before proceeding, we need to make sure that your instance has all the necessary python libraries that the course materials require. We will use a python installation utility called [pip](https://pip.pypa.io) to update your instance with the required libraries. 
+	     You will now have a new local directory in your instance called `eds-217/`, which contains all of the course materials. Before proceeding, we need to make sure that your instance has all the necessary python libraries that the course materials require. We will use a python installation utility called [pip](https://pip.pypa.io) to update your instance with the required libraries. 
 
 1. Use `pip` to install required libraries.
 
-	* In your open terminal, change directory into the newly-created `envdatasci` folder.
+	* In your open terminal, change directory into the newly-created `eds-217` folder.
 
-		`$ cd envdatasci`
+		`$ cd eds-217`
 
 	* There is a text file called `requirements.txt` in this folder. You page through this file using the `more` command.
 
@@ -116,7 +108,7 @@ How to use this repository.
 
 1. Create a `conda` environment.
 
-	`$ conda create -n envdatasci python=3.7.3`
+	`$ conda create -n eds-217 python=3.7.3`
 
 	**Note:** We are using python version [3.7.3](https://www.python.org/downloads/release/python-373/) in this class. That may change in the future, but for now it matches the python that LSIT is using in their docker images that they use to build JupyterHub deployments. 
 
@@ -130,9 +122,9 @@ How to use this repository.
 
 1. Clone the repository to your local machine and `cd` into the class repo directory
 
-	`$ git clone https://github.com/environmental-data-science/envdatasci`
+	`$ git clone https://github.com/environmental-data-science/eds-217`
 
-	`$ cd envdatasci`
+	`$ cd eds-217`
 
 1. Add additional libaries to your conda environment using `pip`.
 
