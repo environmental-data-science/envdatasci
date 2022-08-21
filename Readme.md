@@ -52,7 +52,7 @@ How to use this repository.
 
 > Note: You will need to be on campus or connected to UCSB's VPN to access the server.
 
-1. Once you have logged into RStudio, start a new session by clicking the `+New Session` button at the top of the browser window. 
+1. Once you have logged into RStudio, start a new session by clicking the `+New Session` button at the to of the browser window. 
 
 1. In the dialog box that pops up, create a session name (recommended: `EDS 217`), and select `JupyterLab` as the `Editor`. The `Cluster` option should be left as `Local` (the default)
 
