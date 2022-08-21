@@ -83,11 +83,11 @@ How to use this repository.
 
 	     You will now have a new local directory in your instance called `eds-217/`, which contains all of the course materials. Before proceeding, we need to make sure that your instance has all the necessary python libraries that the course materials require. 
 		 
-1. Use the file browser in JupyterLab top open the `eds-217/` directory. 
+1. Use the file browser in JupyterLab to open the `eds-217/` directory. 
 
-1. Double-click the `test_environment.ipynb` file. This will open the file into a Jupyer Notebook.
+1. Double-click the `test_environment.ipynb` file. This will open the file into a Jupyter notebook editing environment.
 
-1. Follow the instructions in the notebook to execute the cells and confirm that your installation is working correctly. If all goes well, you will get a message saying `You\'re all set!`, and some detailed information on the various packages installed on `taylor.bren.ucsb.edu`. Now you're ready to learn some python!
+1. Follow the instructions in the notebook to execute the cells and confirm that your installation is working correctly. If all goes well, you will get a message saying `You're all set!`, and some detailed information on the various packages installed on `taylor.bren.ucsb.edu`. Now you're ready to learn some python!
 
 ### Local Installation (for Instructors or non-students)
 
