@@ -1,5 +1,5 @@
 
-# Environmental Data Science
+# Python for Environmental Data Science
 
 
 ## [Course Syllabus](https://bit.ly/syllabus-eds-217)
