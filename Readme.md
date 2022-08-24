@@ -65,18 +65,18 @@ How to use this repository.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
-	* Type `git clone` and the the url for this repository, which is `https://github.com/environmental-data-science/eds-217.git`.
+	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217.git`, where <your username> is your github user id.
 
 	     The entire command will look like this:
 
-		`$ git clone https://github.com/environmental-data-science/eds-217`
+		`$ git clone https://github.com/<your username>/eds-217`
 
 		**Note:** In the line above, the `$` is your terminal prompt. On other systems, the command prompt is something like `>`, or `[username]$`. To keep these directions more general, I will just use `$` to represent the command prompt throughout our docs. The key point is that you *don't* need to type this as part of the command.
 
 	* Press **Enter**. A local clone of the class repository will be created in your JupyterLab instance.
 
 		```
-		$ git clone https://github.com/environmental-data-science/eds-217
+		$ git clone https://github.com/<your username>/eds-217
 		> Cloning into eds-217...
 		> remote: Counting objects: 10, done.
 		> remote: Compressing objects: 100% (8/8), done.
