@@ -48,6 +48,9 @@ How to use this repository.
 		* [A Quick Intro](https://www.youtube.com/watch?v=K2Yb1nXTmYM) (3 minutes)
 		* [A Full Tutorial](https://youtu.be/7wfPqAyYADY) (25 minutes)
 
+1. Fork this repository to create a local copy in your github account. Do this by clicking the "Fork" button in the upper right corner of the [repository home page](https://github.com/environmental-data-science/eds-217/).
+
+
 1. Login to the class server using your Bren user ID. 
 
 > Note: You will need to be on campus or connected to UCSB's VPN to access the server.
@@ -58,7 +61,7 @@ How to use this repository.
 
 1. Wait a moment for the JupyterLab instance to get initialized.
 
-1. Clone this repository to your server instance.
+1. Clone the forked repository to your server instance.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
