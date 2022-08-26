@@ -42,7 +42,7 @@ How to use this repository.
 
 1. Login to the EDS 217 JupyterHub Server.
 
-	* The class server is located at [https://taylor.bren.ucsb.edu/](https://taylor.bren.ucsb.edu/)
+	* The class server is located at [https://taylor.bren.ucsb.edu/](https://taylor.bren.ucsb.edu/). You must be on campus or connected to the campus VPN to access this site. 
 
 	* Our server is running RStudio, which includes an installation of [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/). JupyterLab is an interactive environment for executing python code. Here are a couple of tutorials that introduce JupyterLab:
 
@@ -66,7 +66,7 @@ How to use this repository.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
-	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217.git`, where <your username> is your github user id.
+	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217`, where <your username> is your github user id.
 
 	     The entire command will look like this:
 
