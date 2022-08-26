@@ -91,7 +91,7 @@ How to use this repository.
 
 1. Double-click the `test_environment.ipynb` file. This will open the file into a Jupyter notebook editing environment.
 
-1. Follow the instructions in the notebook to execute the cells and confirm that your installation is working correctly. If all goes well, you will get a message saying `You're all set!`, and some detailed information on the various packages installed on `taylor.bren.ucsb.edu`. Now you're ready to learn some python! The index.ipynb notebook in the exercises folder is a good place to start to navigate to exercises according to the course outline. 
+1. Follow the instructions in the notebook to execute the cells and confirm that your installation is working correctly. If all goes well, you will get a message saying `You're all set!`, and some detailed information on the various packages installed on `taylor.bren.ucsb.edu`. Now you're ready to learn some python! The `index.ipynb` notebook in the `exercises` folder is a good place to start to navigate to exercises according to the course outline. 
 
 ### Local Installation (for Instructors or non-students)
 
