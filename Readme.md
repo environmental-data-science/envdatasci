@@ -66,7 +66,7 @@ How to use this repository.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
-	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217.git`, where <your username> is your github user id.
+	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217`, where <your username> is your github user id.
 
 	     The entire command will look like this:
 
