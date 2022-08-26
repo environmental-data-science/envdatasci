@@ -42,9 +42,7 @@ How to use this repository.
 
 1. Login to the EDS 217 JupyterHub Server.
 
-	* You must be on campus or connected to the campus VPN. 
-
-	* The class server is located at [https://taylor.bren.ucsb.edu/](https://taylor.bren.ucsb.edu/)
+	* The class server is located at [https://taylor.bren.ucsb.edu/](https://taylor.bren.ucsb.edu/). You must be on campus or connected to the campus VPN to access this site. 
 
 	* Our server is running RStudio, which includes an installation of [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/). JupyterLab is an interactive environment for executing python code. Here are a couple of tutorials that introduce JupyterLab:
 
