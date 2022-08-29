@@ -1,19 +1,19 @@
 
-# Environmental Data Science
+# Python for Environmental Data Science
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/environmental-data-science/eds-217/main?labpath=exercises%2Findex.ipynb)
 
 
-## [Course Syllabus](resources/G136_Syllabus_Spring_2020.pdf)
+## [Course Syllabus](https://bit.ly/syllabus-eds-217)
 
 
-Course Summary
-==============
+Course Description
+==================
 
-This course will provide an introduction to the principles of
-environmental physics and their application to ecological sciences, with
-a focus on programming and data analysis in Python. Course activities
-will use data analysis to quantify environmental patterns and processes.
-Emphasis will be placed developing coding skills in Python and applying
-these skills to environmental and biophysical problems.
+This course teaches the fundamentals of programming in Python. 
+Students will learn foundational skills and concepts including data structures, 
+programming basics, and how to clean, subset, aggregate, transform and visualize data. 
+Course materials demonstrate the application of these techniques for 
+environmental data analysis and problem solving.
 
 Course Goals
 ============
@@ -26,79 +26,72 @@ Course Goals
     environmental patterns and processes at varying spatial and temporal
     scales.
 
-3.  To use data to model environmental processes of energy and mass
-    transfer.
-
 Course Format
 =============
 
 Students will learn the principles of Python programming and
-environmental data science by working largely independently on weekly
-course materials conducted in Python. Readings will be assigned for both
-programming and disciplinary content related to weekly themes. At least
-once a week, we will meet as a group to introduce and discuss concepts.
-In addition, students will have the opportunity to conduct weekly
-one-on-one check-ins with the instructional team.
-
+environmental data science by working largely independently on daily
+course materials conducted in Python. Supplemental readings will be 
+assigned for both programming and disciplinary content related to weekly themes. 
 
 
 How to use this repository.
 =============
 
-### If you are a student in G136:
+### If you are a student in EDS 217:
 
-1. Login to the G136 JupyterHub Server.
+1. Login to the EDS 217 JupyterHub Server.
 
-	* Our server is located at [https://g136.lsit.ucsb.edu/](https://g136.lsit.ucsb.edu/)
+	* The class server is located at [https://taylor.bren.ucsb.edu/](https://taylor.bren.ucsb.edu/). You must be on campus or connected to the campus VPN to access this site. 
 
-	* Our server is running [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/), which is an interactive environment for executing python code. Here are a couple of tutorials that introduce JupyterLab:
+	* Our server is running RStudio, which includes an installation of [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/). JupyterLab is an interactive environment for executing python code. Here are a couple of tutorials that introduce JupyterLab:
 
 		* [A Quick Intro](https://www.youtube.com/watch?v=K2Yb1nXTmYM) (3 minutes)
 		* [A Full Tutorial](https://youtu.be/7wfPqAyYADY) (25 minutes)
 
-1. Clone this repository to your server instance.
+1. Fork this repository to create a local copy in your github account. Do this by clicking the "Fork" button in the upper right corner of the [repository home page](https://github.com/environmental-data-science/eds-217/).
+
+
+1. Login to the class server using your Bren user ID. 
+
+> Note: You will need to be on campus or connected to UCSB's VPN to access the server.
+
+1. Once you have logged into RStudio, start a new session by clicking the `+New Session` button at the to of the browser window. 
+
+1. In the dialog box that pops up, create a session name (recommended: `EDS 217`), and select `JupyterLab` as the `Editor`. The `Cluster` option should be left as `Local` (the default)
+
+1. Wait a moment for the JupyterLab instance to get initialized.
+
+1. Clone the forked repository to your server instance.
 
 	* Open a `Terminal` in your JupyterLab instance. ([Instructions](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html))
 
-	* Type `git clone` and the the url for this repository, which is `https://github.com/environmental-data-science/envdatasci.git`.
+	* Type `git clone` and the the url for your forked copy of this repository, which is `https://github.com/<your username>/eds-217`, where <your username> is your github user id.
 
 	     The entire command will look like this:
 
-		`jovyan@jupyter-USERNAME:~$ git clone https://github.com/environmental-data-science/envdatasci`
+		`$ git clone https://github.com/<your username>/eds-217`
 
-		**Note:** In the line above, the `jovyan@jupyter-USERNAME:~$` is your terminal prompt, where USERNAME is your ucsb id. On other systems, the command prompt is something like `>`, or `$`. To keep these directions more general, I will just use `$` to represent the command prompt throughout our docs. The key point is that you *don't* need to type this as part of the command.
+		**Note:** In the line above, the `$` is your terminal prompt. On other systems, the command prompt is something like `>`, or `[username]$`. To keep these directions more general, I will just use `$` to represent the command prompt throughout our docs. The key point is that you *don't* need to type this as part of the command.
 
 	* Press **Enter**. A local clone of the class repository will be created in your JupyterLab instance.
 
 		```
-		$ git clone https://github.com/environmental-data-science/envdatasci
-		> Cloning into envdatasci...
+		$ git clone https://github.com/<your username>/eds-217
+		> Cloning into eds-217...
 		> remote: Counting objects: 10, done.
 		> remote: Compressing objects: 100% (8/8), done.
 		> remove: Total 10 (delta 1), reused 10 (delta 1)
 		> Unpacking objects: 100% (10/10), done.
 		```
 
-	     You will now have a new local directory in your instance called `envdatasci/`, which contains all of the course materials. Before proceeding, we need to make sure that your instance has all the necessary python libraries that the course materials require. We will use a python installation utility called [pip](https://pip.pypa.io) to update your instance with the required libraries. 
+	     You will now have a new local directory in your instance called `eds-217/`, which contains all of the course materials. Before proceeding, we need to make sure that your instance has all the necessary python libraries that the course materials require. 
+		 
+1. Use the file browser in JupyterLab to open the `eds-217/` directory. 
 
-1. Use `pip` to install required libraries.
+1. Double-click the `test_environment.ipynb` file. This will open the file into a Jupyter notebook editing environment.
 
-	* In your open terminal, change directory into the newly-created `envdatasci` folder.
-
-		`$ cd envdatasci`
-
-	* There is a text file called `requirements.txt` in this folder. You page through this file using the `more` command.
-
-		`$ more requirements.txt`
-
-	* The file contains a list of python modules. We will be using these various modules in the course, and so we need to make sure they are installed in your JupyterLab instance. This is easy to do with the `pip` command:
-
-		`$ pip install -r requirements.txt`
-
-	* Type the above command and press **Enter**. You will see a ton of output as the `pip` command reads each line of the `requirements.txt` file, determines what library (and library version) is on each line, and then installs the specific version of that library if is needed. The command also tracks down any dependencies that each new library might require and installs those too. 
-
-		**Note:** Most of the libraries in `requirements.txt` should already be installed, in which case `pip` will report back `Requirement already satisfied` for almost every line.
-
+1. Follow the instructions in the notebook to execute the cells and confirm that your installation is working correctly. If all goes well, you will get a message saying `You're all set!`, and some detailed information on the various packages installed on `taylor.bren.ucsb.edu`. Now you're ready to learn some python! The `index.ipynb` notebook in the `exercises` folder is a good place to start to navigate to exercises according to the course outline. 
 
 ### Local Installation (for Instructors or non-students)
 
@@ -114,25 +107,25 @@ How to use this repository.
 
 	* Linux: Use homebrew??
 
-1. Create a `conda` environment.
+1. Clone the repository to your local machine and `cd` into the class repo directory
 
-	`$ conda create -n envdatasci python=3.7.3`
+	`$ git clone https://github.com/environmental-data-science/eds-217`
 
-	**Note:** We are using python version [3.7.3](https://www.python.org/downloads/release/python-373/) in this class. That may change in the future, but for now it matches the python that LSIT is using in their docker images that they use to build JupyterHub deployments. 
+	`$ cd eds-217`
+
+1. Create a `conda` environment using the `environment.yml` file included in the repository.
+
+	`$ conda env create --file environment.yml`
+
+	**Note:** We are using python version [3.10.5](https://www.python.org/downloads/release/python-3105/) in this class. That may change in the future, but for now it matches the python that `taylor.bren.ucsb.edu` is using in RStudio's version of JupyterHub. 
 
 1. Activate the `conda` envrionment
 
-	`$ conda activate envdatasci`
+	`$ conda activate eds-217`
 
 1. Install `pip` into the local conda environment.
 
 	`$ conda install pip`
-
-1. Clone the repository to your local machine and `cd` into the class repo directory
-
-	`$ git clone https://github.com/environmental-data-science/envdatasci`
-
-	`$ cd envdatasci`
 
 1. Add additional libaries to your conda environment using `pip`.
 

@@ -1,3 +1,5 @@
 # Master .gitignore
 .ipynb_checkpoints/
 *.html
+exercises/_answerkeys
+.DS_Store
